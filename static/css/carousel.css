@@ -1,0 +1,83 @@
+div.businessDetails
+{
+  position:absolute;
+  z-index:999;
+  font-size:14pt;
+  font-weight: bolder;
+  bottom:8em;
+  width:480px;
+  left:50%;
+  margin-left:-240px;
+}
+div.address
+{
+  float:left;
+  height:100%;
+}
+div.address span
+{
+
+  display:block;
+  clear:both;
+  float:none;
+  width:100%;
+}
+div.address span:first-child
+{
+  text-align:center;
+}
+div.hours
+{
+  float:right;
+  height:100%;
+  text-align:center;
+}
+table.hours
+{
+  width:100%;
+  border:none;
+  text-align:left;
+}
+table.hours tr td:first-child
+{
+  padding-right:16px;
+  content:"blah";
+}
+table.hours tr td:last-child
+{
+  text-align:right;
+}
+table.hours tr
+{
+  border-bottom: 1px dotted #00cdcd;
+}
+table.hours tr:last-child
+{
+  border:none;
+}
+.carousel-caption
+{
+  top: 12em;
+  bottom: auto;
+  color:#262626;
+  text-shadow:none;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption
+  {
+    top:8em;
+  }
+  div.businessDetails{
+    width:80%;
+    left:10%;
+    bottom:3em;
+    margin-left:0px;
+  }
+  div.address{
+    width:48%;
+  }
+  div.hours {
+    width:48%;
+  }
+}
