@@ -62,12 +62,29 @@ table.hours tr:last-child
   color:#262626;
   text-shadow:none;
 }
+.parkingNote
+{
+  clear:both;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:2em;
+  text-align:center;
+  float:none;
+  width:100%;
+
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 600px) {
   .carousel-caption
   {
     top:8em;
   }
+  .carousel-caption h1
+  {
+    display:none;
+  }
+
   div.businessDetails{
     width:80%;
     left:10%;
@@ -75,9 +92,23 @@ table.hours tr:last-child
     margin-left:0px;
   }
   div.address{
-    width:48%;
+    width:75%;
+    clear:both;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding-bottom:3em;
   }
   div.hours {
     width:48%;
+    clear:both;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .businessDetsTitle
+  {
+    display:none;
   }
 }
